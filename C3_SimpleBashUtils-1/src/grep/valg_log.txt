@@ -1,0 +1,235 @@
+
+for test_1_grep.txt test_2_grep.txt
+for test_1_grep.txt
+^\} test_1_grep.txt
+-c -e /\ test_1_grep.txt
+-ce ^int test_1_grep.txt test_2_grep.txt
+^int test_1_grep.txt
+-nivh = test_1_grep.txt test_2_grep.txt
+
+-ie INT test_5_grep.txt
+-echar test_1_grep.txt test_2_grep.txt
+= -e out test_5_grep.txt
+-iv int test_5_grep.txt
+-in int test_5_grep.txt
+-c -l aboba test_1.txt test_5_grep.txt
+-v test_1_grep.txt -e ank
+-noe ) test_5_grep.txt
+-l for test_1_grep.txt test_2_grep.txt
+-o -e int test_4_grep.txt
+= -e out test_5_grep.txt
+-noe ing -e as -e the -e not -e is test_6_grep.txt
+ing -e as -e the -e not -e is test_6_grep.txt
+-c -e . test_1_grep.txt -e '.'
+-l for no_file.txt test_2_grep.txt
+-f test_3_grep.txt test_5_grep.txt
+s test_text_grep.txt -v
+for s21_grep.c s21_grep.h Makefile -v
+for s21_grep.c -v
+for -e ^int s21_grep.c s21_grep.h Makefile -v
+for -e ^int s21_grep.c -v
+regex -e ^print s21_grep.c -v -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -v -f test_ptrn_grep.txt
+-v no_file.txt
+s test_text_grep.txt -c
+for s21_grep.c s21_grep.h Makefile -c
+for s21_grep.c -c
+for -e ^int s21_grep.c s21_grep.h Makefile -c
+for -e ^int s21_grep.c -c
+regex -e ^print s21_grep.c -c -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -c -f test_ptrn_grep.txt
+-c no_file.txt
+s test_text_grep.txt -l
+for s21_grep.c s21_grep.h Makefile -l
+for s21_grep.c -l
+for -e ^int s21_grep.c s21_grep.h Makefile -l
+for -e ^int s21_grep.c -l
+regex -e ^print s21_grep.c -l -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -l -f test_ptrn_grep.txt
+-l no_file.txt
+s test_text_grep.txt -n
+for s21_grep.c s21_grep.h Makefile -n
+for s21_grep.c -n
+for -e ^int s21_grep.c s21_grep.h Makefile -n
+for -e ^int s21_grep.c -n
+regex -e ^print s21_grep.c -n -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -n -f test_ptrn_grep.txt
+-n no_file.txt
+s test_text_grep.txt -h
+for s21_grep.c s21_grep.h Makefile -h
+for s21_grep.c -h
+for -e ^int s21_grep.c s21_grep.h Makefile -h
+for -e ^int s21_grep.c -h
+regex -e ^print s21_grep.c -h -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -h -f test_ptrn_grep.txt
+-h no_file.txt
+s test_text_grep.txt -o
+for s21_grep.c s21_grep.h Makefile -o
+for s21_grep.c -o
+for -e ^int s21_grep.c s21_grep.h Makefile -o
+for -e ^int s21_grep.c -o
+regex -e ^print s21_grep.c -o -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -o -f test_ptrn_grep.txt
+-o no_file.txt
+s test_text_grep.txt -v -c
+for s21_grep.c s21_grep.h Makefile -v -c
+for s21_grep.c -v -c
+for -e ^int s21_grep.c s21_grep.h Makefile -v -c
+for -e ^int s21_grep.c -v -c
+regex -e ^print s21_grep.c -v -c -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -v -c -f test_ptrn_grep.txt
+-v -c no_file.txt
+s test_text_grep.txt -v -l
+for s21_grep.c s21_grep.h Makefile -v -l
+for s21_grep.c -v -l
+for -e ^int s21_grep.c s21_grep.h Makefile -v -l
+for -e ^int s21_grep.c -v -l
+regex -e ^print s21_grep.c -v -l -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -v -l -f test_ptrn_grep.txt
+-v -l no_file.txt
+s test_text_grep.txt -v -n
+for s21_grep.c s21_grep.h Makefile -v -n
+for s21_grep.c -v -n
+for -e ^int s21_grep.c s21_grep.h Makefile -v -n
+for -e ^int s21_grep.c -v -n
+regex -e ^print s21_grep.c -v -n -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -v -n -f test_ptrn_grep.txt
+-v -n no_file.txt
+s test_text_grep.txt -v -h
+for s21_grep.c s21_grep.h Makefile -v -h
+for s21_grep.c -v -h
+for -e ^int s21_grep.c s21_grep.h Makefile -v -h
+for -e ^int s21_grep.c -v -h
+regex -e ^print s21_grep.c -v -h -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -v -h -f test_ptrn_grep.txt
+-v -h no_file.txt
+s test_text_grep.txt -v -o
+for s21_grep.c s21_grep.h Makefile -v -o
+for s21_grep.c -v -o
+for -e ^int s21_grep.c s21_grep.h Makefile -v -o
+for -e ^int s21_grep.c -v -o
+regex -e ^print s21_grep.c -v -o -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -v -o -f test_ptrn_grep.txt
+-v -o no_file.txt
+s test_text_grep.txt -c -v
+for s21_grep.c s21_grep.h Makefile -c -v
+for s21_grep.c -c -v
+for -e ^int s21_grep.c s21_grep.h Makefile -c -v
+for -e ^int s21_grep.c -c -v
+regex -e ^print s21_grep.c -c -v -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -c -v -f test_ptrn_grep.txt
+-c -v no_file.txt
+s test_text_grep.txt -c -l
+for s21_grep.c s21_grep.h Makefile -c -l
+for s21_grep.c -c -l
+for -e ^int s21_grep.c s21_grep.h Makefile -c -l
+for -e ^int s21_grep.c -c -l
+regex -e ^print s21_grep.c -c -l -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -c -l -f test_ptrn_grep.txt
+-c -l no_file.txt
+s test_text_grep.txt -c -n
+for s21_grep.c s21_grep.h Makefile -c -n
+for s21_grep.c -c -n
+for -e ^int s21_grep.c s21_grep.h Makefile -c -n
+for -e ^int s21_grep.c -c -n
+regex -e ^print s21_grep.c -c -n -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -c -n -f test_ptrn_grep.txt
+-c -n no_file.txt
+s test_text_grep.txt -c -h
+for s21_grep.c s21_grep.h Makefile -c -h
+for s21_grep.c -c -h
+for -e ^int s21_grep.c s21_grep.h Makefile -c -h
+for -e ^int s21_grep.c -c -h
+regex -e ^print s21_grep.c -c -h -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -c -h -f test_ptrn_grep.txt
+-c -h no_file.txt
+s test_text_grep.txt -c -o
+for s21_grep.c s21_grep.h Makefile -c -o
+for s21_grep.c -c -o
+for -e ^int s21_grep.c s21_grep.h Makefile -c -o
+for -e ^int s21_grep.c -c -o
+regex -e ^print s21_grep.c -c -o -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -c -o -f test_ptrn_grep.txt
+-c -o no_file.txt
+s test_text_grep.txt -l -v
+for s21_grep.c s21_grep.h Makefile -l -v
+for s21_grep.c -l -v
+for -e ^int s21_grep.c s21_grep.h Makefile -l -v
+for -e ^int s21_grep.c -l -v
+regex -e ^print s21_grep.c -l -v -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -l -v -f test_ptrn_grep.txt
+-l -v no_file.txt
+s test_text_grep.txt -l -c
+for s21_grep.c s21_grep.h Makefile -l -c
+for s21_grep.c -l -c
+for -e ^int s21_grep.c s21_grep.h Makefile -l -c
+for -e ^int s21_grep.c -l -c
+regex -e ^print s21_grep.c -l -c -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -l -c -f test_ptrn_grep.txt
+-l -c no_file.txt
+s test_text_grep.txt -l -n
+for s21_grep.c s21_grep.h Makefile -l -n
+for s21_grep.c -l -n
+for -e ^int s21_grep.c s21_grep.h Makefile -l -n
+for -e ^int s21_grep.c -l -n
+regex -e ^print s21_grep.c -l -n -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -l -n -f test_ptrn_grep.txt
+-l -n no_file.txt
+s test_text_grep.txt -l -h
+for s21_grep.c s21_grep.h Makefile -l -h
+for s21_grep.c -l -h
+for -e ^int s21_grep.c s21_grep.h Makefile -l -h
+for -e ^int s21_grep.c -l -h
+regex -e ^print s21_grep.c -l -h -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -l -h -f test_ptrn_grep.txt
+-l -h no_file.txt
+s test_text_grep.txt -l -o
+for s21_grep.c s21_grep.h Makefile -l -o
+for s21_grep.c -l -o
+for -e ^int s21_grep.c s21_grep.h Makefile -l -o
+for -e ^int s21_grep.c -l -o
+regex -e ^print s21_grep.c -l -o -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -l -o -f test_ptrn_grep.txt
+-l -o no_file.txt
+s test_text_grep.txt -n -v
+for s21_grep.c s21_grep.h Makefile -n -v
+for s21_grep.c -n -v
+for -e ^int s21_grep.c s21_grep.h Makefile -n -v
+for -e ^int s21_grep.c -n -v
+regex -e ^print s21_grep.c -n -v -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -n -v -f test_ptrn_grep.txt
+-n -v no_file.txt
+s test_text_grep.txt -n -c
+for s21_grep.c s21_grep.h Makefile -n -c
+for s21_grep.c -n -c
+for -e ^int s21_grep.c s21_grep.h Makefile -n -c
+for -e ^int s21_grep.c -n -c
+regex -e ^print s21_grep.c -n -c -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -n -c -f test_ptrn_grep.txt
+-n -c no_file.txt
+s test_text_grep.txt -n -l
+for s21_grep.c s21_grep.h Makefile -n -l
+for s21_grep.c -n -l
+for -e ^int s21_grep.c s21_grep.h Makefile -n -l
+for -e ^int s21_grep.c -n -l
+regex -e ^print s21_grep.c -n -l -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -n -l -f test_ptrn_grep.txt
+-n -l no_file.txt
+s test_text_grep.txt -n -h
+for s21_grep.c s21_grep.h Makefile -n -h
+for s21_grep.c -n -h
+for -e ^int s21_grep.c s21_grep.h Makefile -n -h
+for -e ^int s21_grep.c -n -h
+regex -e ^print s21_grep.c -n -h -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -n -h -f test_ptrn_grep.txt
+-n -h no_file.txt
+s test_text_grep.txt -n -o
+for s21_grep.c s21_grep.h Makefile -n -o
+for s21_grep.c -n -o
+for -e ^int s21_grep.c s21_grep.h Makefile -n -o
+for -e ^int s21_grep.c -n -o
+regex -e ^print s21_grep.c -n -o -f test_ptrn_grep.txt
+while -e void s21_grep.c Makefile -n -o -f test_ptrn_grep.txt
+-n -o no_file.txt
+s test_text_grep.txt -h -v
+for s21_grep.c s21_grep.h Makefile -h -v

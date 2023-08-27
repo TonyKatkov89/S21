@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "cat_parcer.h": "c",
+        "grep_parcer.h": "c",
+        "grep_print.h": "c",
+        "grep_search.h": "c",
+        "s21_grep.h": "c",
+        "string.h": "c",
+        "array.h": "c",
+        "ncurses.h": "c",
+        "grep_main.h": "c"
+    }
+}

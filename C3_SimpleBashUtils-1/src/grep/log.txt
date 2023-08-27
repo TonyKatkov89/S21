@@ -1,0 +1,8 @@
+
+-c -e /\ test_1_grep.txt
+-nivh = test_1_grep.txt test_2_grep.txt
+-noe ) test_5_grep.txt
+-noe ing -e as -e the -e not -e is test_6_grep.txt
+ing -e as -e the -e not -e is test_6_grep.txt
+-c -e . test_1_grep.txt -e '.'
+-f test_3_grep.txt test_5_grep.txt

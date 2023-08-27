@@ -1,0 +1,19 @@
+Jedi 
+escape
+'^[A-W].*[a-z] $'
+d
+da
+dan
+dang
+dange
+danger
+dangers
+dangerou
+dangerous
+dangerous 
+dangerous m
+dangerous mo
+dangerous mou
+dangerous mous
+dangerous mouse
+dangerous mouse!
