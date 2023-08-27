@@ -1,0 +1,15 @@
+[submodule "C3_SimpleBashUtils-1"]
+	path = C3_SimpleBashUtils-1
+	url = ./C3_SimpleBashUtils-1
+[submodule "C4_s21_math-1"]
+	path = C4_s21_math-1
+	url = ./C4_s21_math-1
+[submodule "C6_s21_matrix-2"]
+	path = C6_s21_matrix-2
+	url = ./C6_s21_matrix-2
+[submodule "C7_SmartCalc_v1.0-1"]
+	path = C7_SmartCalc_v1.0-1
+	url = ./C7_SmartCalc_v1.0-1
+[submodule "C8_3DViewer_v1.0-1"]
+	path = C8_3DViewer_v1.0-1
+	url = ./C8_3DViewer_v1.0-1
